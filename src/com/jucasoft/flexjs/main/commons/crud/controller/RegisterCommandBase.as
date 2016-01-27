@@ -2,10 +2,8 @@ package com.jucasoft.flexjs.main.commons.crud.controller {
 import com.jucasoft.flexjs.main.commons.crud.Names;
 
 import org.puremvc.as3.multicore.interfaces.ICommand;
-
 import org.puremvc.as3.multicore.interfaces.INotification;
 import org.puremvc.as3.multicore.interfaces.IProxy;
-
 import org.puremvc.as3.multicore.patterns.command.SimpleCommand;
 
 public class RegisterCommandBase extends SimpleCommand implements ICommand {

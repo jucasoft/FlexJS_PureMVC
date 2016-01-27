@@ -7,10 +7,7 @@
 package com.jucasoft.flexjs.main.commons.controller {
 import com.jucasoft.flexjs.main.commons.utils.RandomizerUtil;
 
-import mx.utils.UIDUtil;
-
 import org.puremvc.as3.multicore.interfaces.INotification;
-
 import org.puremvc.as3.multicore.patterns.command.SimpleCommand;
 
 /**
@@ -35,7 +32,7 @@ public class ExecutorCommand extends SimpleCommand {
         var object:Object = notification.getBody().body;
 
         //fixme
-        var name:String = RandomizerUtil.randomNumber(9999999999999999999999999999999999999999999,1).toString();
+        var name:String = RandomizerUtil.randomNumber(9999999999999999999999999999999999999999999, 1).toString();
 
         facade.registerCommand(name, clazz);
         sendNotification(name, object);

@@ -4,9 +4,9 @@
 */
 package org.puremvc.as3.multicore.patterns.observer
 {
-	import org.puremvc.as3.multicore.interfaces.*;
-	
-	/**
+import org.puremvc.as3.multicore.interfaces.*;
+
+/**
 	 * A base <code>INotification</code> implementation.
 	 * 
 	 * <P>

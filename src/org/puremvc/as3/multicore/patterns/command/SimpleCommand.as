@@ -5,10 +5,10 @@
 package org.puremvc.as3.multicore.patterns.command 
 {
 
-	import org.puremvc.as3.multicore.interfaces.*;
-	import org.puremvc.as3.multicore.patterns.observer.Notifier;
-	
-	/**
+import org.puremvc.as3.multicore.interfaces.*;
+import org.puremvc.as3.multicore.patterns.observer.Notifier;
+
+/**
 	 * A base <code>ICommand</code> implementation.
 	 * 
 	 * <P>
@@ -27,7 +27,7 @@ package org.puremvc.as3.multicore.patterns.command
 		 * 
 		 * <P>
 		 * In the Command Pattern, an application use-case typically
-		 * begins with some user action, which results in an <code>INotification</code> being broadcast, which 
+		 * begins with some home action, which results in an <code>INotification</code> being broadcast, which
 		 * is handled by business logic in the <code>execute</code> method of an
 		 * <code>ICommand</code>.</P>
 		 * 

@@ -3,7 +3,6 @@ import com.jucasoft.flexjs.main.commons.crud.Names;
 import com.jucasoft.flexjs.main.commons.crud.model.vo.InitCriteria;
 
 import org.puremvc.as3.multicore.interfaces.INotification;
-
 import org.puremvc.as3.multicore.patterns.command.SimpleCommand;
 
 public class RemoveCrudCommand extends SimpleCommand {

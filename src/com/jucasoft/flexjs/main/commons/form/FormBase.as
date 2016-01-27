@@ -3,10 +3,11 @@
  */
 package com.jucasoft.flexjs.main.commons.form {
 import com.jucasoft.flexjs.main.commons.form.model.api.IForm;
+import com.jucasoft.flexjs.main.commons.ui.Container;
 
-public class FormBase extends HTMLDivElement implements IForm {
-    public function FormBase() {
-        super();
+public class FormBase extends Container implements IForm {
+    public function FormBase(element:Element = null) {
+        super(element);
     }
 
     private var _item:Object;
@@ -63,7 +64,7 @@ public class FormBase extends HTMLDivElement implements IForm {
     }
 
     public function isValid():Boolean {
-
+        return true;
     }
 
     /**
@@ -80,6 +81,7 @@ public class FormBase extends HTMLDivElement implements IForm {
     public function set item(value:Object):void {
         _item = value;
     }
+
 
 }
 }

@@ -4,11 +4,11 @@
 */
 package org.puremvc.as3.multicore.patterns.proxy
 {
-	import org.puremvc.as3.multicore.interfaces.IProxy;
-	import org.puremvc.as3.multicore.interfaces.INotifier;
-	import org.puremvc.as3.multicore.patterns.observer.Notifier;
-	
-	/**
+import org.puremvc.as3.multicore.interfaces.INotifier;
+import org.puremvc.as3.multicore.interfaces.IProxy;
+import org.puremvc.as3.multicore.patterns.observer.Notifier;
+
+/**
 	 * A base <code>IProxy</code> implementation. 
 	 * 
 	 * <P>

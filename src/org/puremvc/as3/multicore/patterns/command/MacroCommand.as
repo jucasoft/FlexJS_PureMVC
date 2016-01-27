@@ -5,10 +5,10 @@
 package org.puremvc.as3.multicore.patterns.command 
 {
 
-	import org.puremvc.as3.multicore.interfaces.*;
-	import org.puremvc.as3.multicore.patterns.observer.*;
-	
-	/**
+import org.puremvc.as3.multicore.interfaces.*;
+import org.puremvc.as3.multicore.patterns.observer.*;
+
+/**
 	 * A base <code>ICommand</code> implementation that executes other <code>ICommand</code>s.
 	 *  
 	 * <P>

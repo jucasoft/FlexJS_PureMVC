@@ -1,17 +1,18 @@
 package com.jucasoft.flexjs.main.commons.crud {
 
 public class CrudEnums {
-    public static const CREATE:String = "inserisci";
+    public static const CREATE:String = "create";
     public static const CANCEL:String = "cancel";
-    public static const EDIT:String = "modifica";
-    public static const REMOVE:String = "cancella";
+    public static const EDIT:String = "edit";
+    public static const REMOVE:String = "remove";
 
-    public static const SEARCH:String = "cerca";
+    public static const SEARCH:String = "search";
     public static const SAVE:String = "save";
     public static const SELECTED:String = "selected";
     public static const INIT_COMPLETE:String = "initComplete"
 
-    public static const UPDATE:String = "seleziona";
+    public static const UPDATE:String = "update";
+
     public static const FAIL:String = "Fail";
     public static const SUCCESS:String = "Success";
 

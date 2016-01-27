@@ -10,6 +10,8 @@ public class Names {
      *
      */
     public static function getEntity(value:String):String {
+        trace('Names.getEntity(value:String)');
+        trace('value: ' + value);
         var start:int = value.indexOf(CrudEnums.PREFIX_ENTITY);
         start += CrudEnums.PREFIX_ENTITY.length;
 
@@ -27,11 +29,15 @@ public class Names {
      *
      */
     public static function getProxyName(value:String):String {
+        trace('Names.getProxyName(value:String)');
+        trace('value: ' + value);
         return getEntity(value) + CrudEnums.SUFFIX_PROXY_NAME;
     }
 
     public function Names(entityName:String) {
-        this._entityName = entityName
+        trace('Names.Names(entityName:String)');
+        trace('entityName: ' + entityName);
+        this._entityName = entityName;
         remote = new ActionNames(entityName);
         local = new ActionNames("Local" + entityName);
         states = new StateNames("State" + entityName);
@@ -44,6 +50,8 @@ public class Names {
     public var _entityName:String;
 
     public function get entityName():String {
+        trace('Names.entityName():String');
+        trace('return _entityName' + _entityName);
         return _entityName;
     }
 

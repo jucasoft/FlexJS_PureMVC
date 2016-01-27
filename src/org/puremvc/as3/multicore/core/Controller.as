@@ -4,10 +4,10 @@
 */
 package org.puremvc.as3.multicore.core
 {
-	import org.puremvc.as3.multicore.interfaces.*;
-	import org.puremvc.as3.multicore.patterns.observer.*;
-	
-	/**
+import org.puremvc.as3.multicore.interfaces.*;
+import org.puremvc.as3.multicore.patterns.observer.*;
+
+/**
 	 * A Multiton <code>IController</code> implementation.
 	 * 
 	 * <P>

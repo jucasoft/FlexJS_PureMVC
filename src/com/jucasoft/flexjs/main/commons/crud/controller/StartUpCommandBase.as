@@ -11,7 +11,6 @@ import com.jucasoft.flexjs.main.commons.crud.model.api.IStartUpCommand;
 import com.jucasoft.flexjs.main.commons.crud.model.vo.InitCriteria;
 
 import org.puremvc.as3.multicore.interfaces.INotification;
-
 import org.puremvc.as3.multicore.patterns.command.SimpleCommand;
 import org.puremvc.as3.multicore.patterns.observer.Notification;
 

@@ -1,6 +1,4 @@
 package com.jucasoft.flexjs.main.commons.crud.view {
-import mx.core.UIComponent;
-
 public class StateUtils {
 
     /**

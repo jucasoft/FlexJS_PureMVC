@@ -4,10 +4,10 @@
 */
 package org.puremvc.as3.multicore.patterns.mediator
 {
-	import org.puremvc.as3.multicore.interfaces.*;
-	import org.puremvc.as3.multicore.patterns.observer.Notifier;
-	
-	/**
+import org.puremvc.as3.multicore.interfaces.*;
+import org.puremvc.as3.multicore.patterns.observer.Notifier;
+
+/**
 	 * A base <code>IMediator</code> implementation. 
 	 * 
 	 * @see org.puremvc.as3.multicore.core.View View

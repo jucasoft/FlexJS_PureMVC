@@ -4,7 +4,6 @@ import com.jucasoft.flexjs.main.commons.crud.model.vo.InitCriteria;
 
 import org.puremvc.as3.multicore.interfaces.IFacade;
 import org.puremvc.as3.multicore.interfaces.INotification;
-
 import org.puremvc.as3.multicore.interfaces.IProxy;
 
 public class RegisterCrudCommand {
@@ -18,7 +17,6 @@ public class RegisterCrudCommand {
     public function execute(note:INotification):void {
 
         trace("=== RegisterCrudCommand.execute(note) ===");
-        trace("Inizializzo i CRUDCommand");
         if (!note.getBody() && !(note.getBody() is InitCriteria))
             throw new Error("Attenzione: il body di questa notifica non è valido.");
 
@@ -52,7 +50,6 @@ public class RegisterCrudCommand {
         crudProxy = IProxy(new proxyClass(names));
 
         facade.registerProxy(crudProxy);
-        trace("=== END ===");
 
     }
 

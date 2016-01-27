@@ -8,7 +8,6 @@ import flash.events.IEventDispatcher;
 import mx.events.FlexEvent;
 import mx.utils.UIDUtil;
 
-import org.apache.flex.html.Alert;
 import org.puremvc.as3.multicore.interfaces.IMediator;
 import org.puremvc.as3.multicore.patterns.mediator.Mediator;
 

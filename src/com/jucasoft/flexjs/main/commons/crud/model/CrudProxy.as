@@ -137,8 +137,8 @@ public class CrudProxy extends Proxy implements ICrud {
     }
 
     protected function onResultSearch(event:ResultEvent):void {
-
-        // elimino eventuali filtri in modo che venga svuocata correttamente la lista.
+        trace('CrudProxy.onResultSearch(event:ResultEvent)');
+        trace("proxyName: " + getProxyName());
         ICollection(getData()).filterFunction = null;
         ICollection(getData()).sort = null;
         ICollection(getData()).refresh();
@@ -155,7 +155,7 @@ public class CrudProxy extends Proxy implements ICrud {
      *
      */
     protected function onFaultRemove(event:FaultEvent):void {
-        trace("CrudProxy.onFaultRemove(event)");
+        trace("CrudProxy.onFaultRemove(event:FaultEvent)");
         trace("proxyName: " + getProxyName());
         trace(ObjectUtil.toString(event));
         sendNotification(names.remote.removeFail, event, _uidChannel);

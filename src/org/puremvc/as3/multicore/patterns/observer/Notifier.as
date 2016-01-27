@@ -4,10 +4,10 @@
 */
 package org.puremvc.as3.multicore.patterns.observer
 {
-	import org.puremvc.as3.multicore.interfaces.*;
-	import org.puremvc.as3.multicore.patterns.facade.Facade;
-	
-	/**
+import org.puremvc.as3.multicore.interfaces.*;
+import org.puremvc.as3.multicore.patterns.facade.Facade;
+
+/**
 	 * A Base <code>INotifier</code> implementation.
 	 * 
 	 * <P>

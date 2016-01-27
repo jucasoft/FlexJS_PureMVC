@@ -4,11 +4,11 @@
 */
 package org.puremvc.as3.multicore.patterns.facade
 {
-	import org.puremvc.as3.multicore.core.*;
-	import org.puremvc.as3.multicore.interfaces.*;
-	import org.puremvc.as3.multicore.patterns.observer.*;
+import org.puremvc.as3.multicore.core.*;
+import org.puremvc.as3.multicore.interfaces.*;
+import org.puremvc.as3.multicore.patterns.observer.*;
 
-	/**
+/**
 	 * A base Multiton <code>IFacade</code> implementation.
 	 * 
 	 * @see org.puremvc.as3.multicore.core.Model Model

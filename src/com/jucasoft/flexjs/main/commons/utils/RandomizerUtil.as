@@ -95,8 +95,8 @@ public class RandomizerUtil {
     }
 
 
-    public static function randomCod(userAlphabet:String = "pippo-pluto-paperino"):String {
-        var alphabet:Array = userAlphabet.split("-");
+    public static function randomCod(homeAlphabet:String = "pippo-pluto-paperino"):String {
+        var alphabet:Array = homeAlphabet.split("-");
         var alphabetLength:int = alphabet.length;
         var randomLetters:String = "";
 
@@ -108,12 +108,12 @@ public class RandomizerUtil {
     /**
      *  Genera una stringa casuale  della lunghezza specificata
      * @param newLength
-     * @param userAlphabet
+     * @param homeAlphabet
      * @return
      *
      */
-    public static function randomString(newLength:uint = 1, userAlphabet:String = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"):String {
-        var alphabet:Array = userAlphabet.split("");
+    public static function randomString(newLength:uint = 1, homeAlphabet:String = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"):String {
+        var alphabet:Array = homeAlphabet.split("");
         var alphabetLength:int = alphabet.length;
         var randomLetters:String = "";
         for (var i:uint = 0; i < newLength; i++) {

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<js:ViewBase xmlns:fx="http://ns.adobe.com/mxml/2009"
+                xmlns:js="library://ns.apache.org/flexjs/basic">
+
+    <fx:Script>
+        <![CDATA[
+        private function dataGridChange():void {
+            output.text += ' -';
+        }
+
+        private function button_clickHandler():void {
+            trace("Click on row ");
+        }
+        ]]>
+    </fx:Script>
+
+    <js:Label id="output" x="450" y="30" width="100"/>
+
+    <js:VContainer>
+        <js:VContainer>
+            <js:TextInput text="js:TextInput" click="button_clickHandler()"/>
+            <js:TextInput text="js5:TextInput" click="button_clickHandler()"/>
+        </js:VContainer>
+    </js:VContainer>
+</js:ViewBase>
